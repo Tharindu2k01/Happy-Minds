@@ -1,0 +1,146 @@
+.home-grid{
+    display: grid;
+    background-image: url("../../assests/home-page/snow.gif");
+}
+
+.left-col-up{
+    grid-row-start: 1;
+    grid-row-end:  span 2;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.video-col{
+    grid-row-start: 2;
+    grid-row-end: span 4;
+    grid-column-start: 3;
+    grid-column-end: span 5;
+    background-color: #80b6f2;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    border-radius: 30px;
+
+}
+.right-col-up{
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    grid-column-start: 8;
+    grid-column-end:  span 2;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.left-col-down{
+    grid-row-start: 6;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end:  span 2;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right-col-down{
+    grid-row-start: 6;
+    grid-row-end: span 1;
+    grid-column-start: 8;
+    grid-column-end:  span 2;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.left-panel{
+    grid-row-start: 2;
+    grid-row-end: span 4;
+    grid-column-start: 1;
+    grid-column-end:  span 2;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-panel{
+    grid-row-start: 2;
+    grid-row-end: span 4;
+    grid-column-start: 8;
+    grid-column-end:  span 2;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-panel{
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    grid-column-start: 3;
+    grid-column-end:  span 5;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottom-panel{
+    grid-row-start: 6;
+    grid-row-end: span 1;
+    grid-column-start: 3;
+    grid-column-end:  span 5;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    object-fit: contain;
+    width: 70%;
+    height: 100%;
+}
+.animation-panel{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.react-player {
+    position: absolute;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1.5px solid green;
+}
+
+Webcam{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.go-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.go-button-img {
+    width: 100px; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.go-button-img:hover {
+    transform: scale(1.2);
+}

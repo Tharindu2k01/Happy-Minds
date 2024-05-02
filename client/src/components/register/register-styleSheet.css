@@ -1,0 +1,44 @@
+.register-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-form-panel{
+    width: 30%;
+    background-color: #80b6f2;
+    font-family: sans-serif;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.register-right-panel{
+    width: 70%;
+    background-color: white;
+    height: 100vh;
+    display: auto;
+    justify-content: center;
+    align-items: center;
+}
+.register-form{
+    width: 60%;
+    font-family: sans-serif;
+    font-size: 19px;
+}
+
+.register-cover-img {
+    object-fit: contain;
+    width: 90%;
+    height: auto;
+}
+
+.logo-img2 {
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+    display: flex;
+}
+
+.logo-img2:hover {
+    transform: scale(1.2);
+}

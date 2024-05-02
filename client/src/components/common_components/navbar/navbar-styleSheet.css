@@ -1,0 +1,68 @@
+
+.navbar {
+    background-color: #007bff;
+    padding: 0px 0;
+}
+
+.navbar-brand {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #555;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #333;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease; 
+}
+
+.nav-link:hover {
+    background-color: #eee;
+    color: #555; 
+}
+
+.navbar-nav .active .nav-link {
+    background-color: #007bff; 
+    color: #fff; 
+}
+
+.logo-img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+    transform: scale(1.2);
+}
+
+.logout-img {
+    width: 25px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logout-img:hover {
+    transform: scale(1.2);
+}

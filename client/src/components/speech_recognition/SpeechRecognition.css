@@ -1,0 +1,29 @@
+.mic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mic-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    animation: pulse 1s infinite;
+}
+
+.mic-text {
+    margin-top: 10px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

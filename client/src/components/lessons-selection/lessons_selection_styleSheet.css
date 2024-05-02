@@ -1,0 +1,128 @@
+.lessons-selection-grid{
+    display: grid;
+    background-image: url("../../assests/home-page/snow.gif");
+}
+.lessons-selection-top-banner{
+    grid-row-start: 1;
+    grid-row-end:  span 2;
+    grid-column-start: 1;
+    grid-column-end: span 12;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lessons-selection-left-banner{
+    grid-row-start: 3;
+    grid-row-end:  span 3;
+    grid-column-start: 1;
+    grid-column-end:  2;
+    background-color: #80b6f2;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lessons-selection-01{
+    grid-row-start: 4;
+    grid-row-end:  span 1;
+    grid-column-start: 3;
+    grid-column-end:  span 2;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7 url("../../assests/quize/quiz_banner.jpg") no-repeat scroll center;
+    background-size: contain;
+    
+}
+.lessons-selection-01:hover{
+    grid-row-start: 4;
+    grid-row-end:  span 1;
+    grid-column-start: 3;
+    grid-column-end:  span 2;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7 url("../../assests/quize/quiz_banner.jpg") no-repeat scroll center;
+    background-size: contain;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.lessons-selection-02{
+    grid-row-start: 4;
+    grid-row-end:  span 1;
+    grid-column-start: 6;
+    grid-column-end:  span 2;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7 url("../../assests/quize/paata_igena_gamu.jpg") no-repeat scroll center;
+    background-size: contain;
+
+}
+.lessons-selection-02:hover{
+    grid-row-start: 4;
+    grid-row-end:  span 1;
+    grid-column-start: 6;
+    grid-column-end:  span 2;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7 url("../../assests/quize/paata_igena_gamu.jpg") no-repeat scroll center;
+    background-size: contain;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.lessons-selection-03{
+    grid-row-start: 4;
+    grid-row-end:  span 1;
+    grid-column-start: 9;
+    grid-column-end:  span 2;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7 url("../../assests/quize/manasika_suwatha_blue.png") no-repeat scroll center;
+    background-size: contain;
+}
+
+.lessons-selection-03:hover{
+    grid-row-start: 4;
+    grid-row-end:  span 1;
+    grid-column-start: 9;
+    grid-column-end:  span 2;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7 url("../../assests/quize/manasika_suwatha_blue.png") no-repeat scroll center;
+    background-size: contain;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.lessons-selection-right-banner{
+    grid-row-start: 3;
+    grid-row-end:  span 3;
+    grid-column-start: 12;
+    grid-column-end:  13;
+    background-color: #80b6f2;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lessons-selection-bottom-banner{
+    grid-row-start: 7;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: span 12;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

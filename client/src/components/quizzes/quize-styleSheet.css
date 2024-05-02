@@ -1,0 +1,92 @@
+.quiz-grid{
+    display: grid;
+    background-color: #f7f7f7;
+}
+.top-instruction-panel{
+    grid-row-start: 1;
+    grid-row-end:  span 2;
+    grid-column-start: 1;
+    grid-column-end: span 10;
+    /*background-color: blanchedalmond;*/
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assests/quize/quiz_banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f7f7f7;
+}
+.quiz-panel{
+    grid-row-start: 3;
+    grid-row-end:  span 4;
+    grid-column-start: 2;
+    grid-column-end: span 4;
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    border-radius: 5%;
+}
+.voice-input-panel{
+    grid-row-start: 3;
+    grid-row-end:  span 4;
+    grid-column-start: 6 ;
+    grid-column-end: span 4;
+    /*background-color: brown;*/
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+.bottom-button-panel{
+    grid-row-start: 7;
+    grid-row-end:  span 2;
+    grid-column-start: 1;
+    grid-column-end: span 10;
+    /*background-color: blanchedalmond;*/
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+.left-panel-quiz{
+    grid-row-start: 3;
+    grid-row-end:  span 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    /*background-color: red;*/
+    height: 50vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    background-color: #f7f7f7;
+}
+
+.right-panel-quiz{
+    grid-row-start: 3;
+    grid-row-end:  span 4;
+    grid-column-start: 10;
+    grid-column-end: 10;
+    /*background-color: blue;*/
+    height: 50vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    background-color: #f7f7f7;
+}
+.panel-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
