@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 35px 0;
 }
 .register-right-panel{
     width: 70%;

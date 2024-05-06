@@ -17,7 +17,7 @@
     width: 30%;
     background-color: #80b6f2;
     font-family: sans-serif;
-    height: auto;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -32,7 +32,7 @@
 }
 
 .logo-img1 {
-    width: 250px;
+    width: 150px;
     height: auto;
     transition: transform 0.3s ease;
     display: flex;
