@@ -1,0 +1,77 @@
+.quiz-grid{
+    display: grid;
+    background-image: url("../../assests/home-page/snow.gif");
+}
+.quiz-grid-top-banner{
+    grid-row-start: 1;
+    grid-row-end:  span 2;
+    grid-column-start: 1;
+    grid-column-end: span 12;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-display {
+    grid-row-start: 2.5;
+    grid-row-end: span 4;
+    grid-column-start: 4;
+    grid-column-end: span 5;
+    background-color: #ffffff;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-grid-bott-banner{
+    grid-row-start: 7;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: span 12;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+.selected-item {
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    font-weight: bold;
+    color: #4c72f0;
+    padding: 50px;
+}
+
+.item {
+    position: relative;
+    top: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #4c72f0;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  
+.item:hover {
+    transform: scale(1.2);
+}

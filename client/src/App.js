@@ -16,6 +16,8 @@ import {
     Route
 } from 'react-router-dom'
 import Quizzes_selection from "./components/quizzes-selection/quizzes_selection";
+import Alphabet from "./components/alphabet-numbers/Alphabet";
+import Number from "./components/alphabet-numbers/Number";
 
 
 function App() {
@@ -32,6 +34,9 @@ function App() {
     <Route path="/" element={<Login/>}/>
     <Route path="/register" element={<Register/>}/>
     <Route path="/quizzes_selection" element={<Quizzes_selection/>}/>
+    <Route path="/alphabet" element={<Alphabet/>}/>
+    <Route path="/number" element={<Number/>}/>
+
 
 
 

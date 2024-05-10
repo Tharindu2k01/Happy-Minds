@@ -21,21 +21,34 @@ const Lessons_selection = (props) => {
                     <button className="lessons-selection-01"
                             onClick={() => navigate("/first_lesson")}>
                         <div>
-
                         </div>
                     </button>
+
                     <button className="lessons-selection-02"
                             onClick={() => navigate("/colour_lesson")}>
                         <div>
-
                         </div>
                     </button>
+
                     <button className="lessons-selection-03"
                             onClick={() => navigate("/therapy_session")}>
                         <div>
-
                         </div>
                     </button>
+
+                    <button className="lessons-selection-04"
+                            onClick={() => navigate("/alphabet")}>
+                        <div>
+                        </div>
+                    </button>
+
+                    <button className="lessons-selection-05"
+                            onClick={() => navigate("/number")}>
+                        <div>
+                        </div>
+                    </button>
+
+
                 </div>
             </div>
         );
