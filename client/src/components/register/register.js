@@ -15,10 +15,12 @@ const Register = () => {
                     <div>
                         <img src="LOGO.png" alt="Logo" className="logo-img2"/>
                     </div>
+
                     <div>
                         <label htmlFor="validationDefault01" className="form-label">First name</label>
                         <input type="text" className="form-control" id="validationDefault01" required/>
                     </div>
+
                     <div>
                         <label htmlFor="validationDefault02" className="form-label">Last name</label>
                         <input type="text" className="form-control" id="validationDefault02" required/>
@@ -33,11 +35,14 @@ const Register = () => {
                         <label htmlFor="validationDefault03" className="form-label">Create new password</label>
                         <input type="password" className="form-control" id="validationDefault03" required/>
                     </div>
+
                     <div>
                         <label htmlFor="validationDefault03" className="form-label">Confirm password</label>
                         <input type="password" className="form-control" id="validationDefault03" required/>
                     </div>
+
                     <br/>
+
                     <div className="col-12">
                         <div className="form-check">
                             <input className="form-check-input" type="checkbox" value="" id="invalidCheck2" required/>
@@ -46,33 +51,30 @@ const Register = () => {
                             </label>
                         </div>
                     </div>
-                    <br/>
 
                     <div className="d-grid gap-2">
                         <ReCAPTCHA sitekey={process.env.REACT_APP_SITE_KEY}/>
                     </div>
 
+                    <br/>
+
                     <div className="d-grid gap-2">
-                        <button type="submit" className="btn btn-primary">
-                            Register User
-                        </button>
+                        <button type="submit" className="btn btn-primary"> Register User </button>
                     </div>
 
-                    <br/>
+                    <br/><p className="text-center">or <br/>Don't have an account ?</p>
+
                     <div className="d-grid gap-2">
-                        <button type="submit" className="btn btn-success"
-                                onClick={() => navigate('/')}>
-                            Log In
-                        </button>
+                        <button type="submit" className="btn btn-success" onClick={() => navigate('/')}> Log In </button>
                     </div>
 
                 </form>
             </div>
+
             <div className="register-right-panel">
-                <img className="register-cover-img"
-                     src={cover_img}
-                />
+                <img className="register-cover-img" src={cover_img} />
             </div>
+
         </div>
     );
 }

@@ -19,13 +19,18 @@ export default class Navbar extends Component{
                                 <a className="nav-link active" aria-current="page" href={'/home'}>Dashboard</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href={'/lessons_selection'}>Lessons</a>
+                                <a className="nav-link active" aria-current="page"
+                                   href={'/lessons_selection'}>Lessons</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page"
+                                   href={'/quizzes_selection'}>Quizzes</a>
                             </li>
                         </ul>
-                            <a className="navbar-brand" href={'/'}><img src="logout.png" alt="Logo" className="logout-img" /></a>
+                        <a className="nav-link active" aria-current="page" href={'/'}>Log out <img src="logout.png" alt="Logo" className="logout-img"/></a>
                     </div>
 
-                    
+
                 </div>
             </nav>
         );

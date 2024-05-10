@@ -8,9 +8,15 @@ const Lessons_selection = (props) => {
         return(
             <div>
                 <Navbar/>
+
                 <div className="lessons-selection-grid">
-                    <div className="lessons-selection-top-banner"></div>
-                    <div className="lessons-selection-left-banner"></div>
+
+                    <div className="lessons-selection-top-banner">
+                        <h1 className="display-4">පාඩම් තෝරා ගමු</h1>
+                    </div>
+
+                    <div className="lessons-selection-bottom-banner"></div>
+
 
                     <button className="lessons-selection-01"
                             onClick={() => navigate("/first_lesson")}>
@@ -26,12 +32,10 @@ const Lessons_selection = (props) => {
                     </button>
                     <button className="lessons-selection-03"
                             onClick={() => navigate("/therapy_session")}>
-                        <div >
+                        <div>
 
                         </div>
                     </button>
-                    <div className="lessons-selection-right-banner"></div>
-                    <div className="lessons-selection-bottom-banner"></div>
                 </div>
             </div>
         );

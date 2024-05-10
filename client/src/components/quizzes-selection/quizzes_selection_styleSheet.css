@@ -1,0 +1,32 @@
+.quizzes-selection-grid{
+    display: grid;
+    background-image: url("../../assests/home-page/snow.gif");
+}
+.quizzes-selection-top-banner{
+    grid-row-start: 1;
+    grid-row-end:  span 2;
+    grid-column-start: 1;
+    grid-column-end: span 12;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quizzes-selection-01{
+    grid-row-start: 4;
+    grid-row-end:  span 1;
+    grid-column-start: 6;
+    grid-column-end:  span 2;
+    height: 40vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7 url("../../assests/quize/quiz_banner.jpg") no-repeat scroll center;
+    background-size: contain;
+    
+}
+.quizzes-selection-01:hover{
+    transform: scale(1.1);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
