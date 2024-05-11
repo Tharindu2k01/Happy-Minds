@@ -18,6 +18,7 @@ import {
 import Quizzes_selection from "./components/quizzes-selection/quizzes_selection";
 import Alphabet from "./components/alphabet-numbers/Alphabet";
 import Number from "./components/alphabet-numbers/Number";
+import QuizTwo from "./components/quizzes/color-quiz";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     <Route path="/quizzes_selection" element={<Quizzes_selection/>}/>
     <Route path="/alphabet" element={<Alphabet/>}/>
     <Route path="/number" element={<Number/>}/>
+    <Route path="/Quiz_Two" element={<QuizTwo/>}/>
 
 
 
