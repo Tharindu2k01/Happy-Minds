@@ -2,12 +2,11 @@ import React from "react";
 import './lessson-styleSheet.css';
 import {useNavigate} from "react-router-dom";
 import Navbar from "../common_components/navbar/navbar";
-import left_pane from "../../assests/lesson-page/lesson-left-pane.jpg";
 import ReactPlayer from "react-player";
 import lesson_01 from "../../assests/lesson-page/lesson-videos/lesson_01.mp4";
-import Webcam from "react-webcam";
 import buttonImage from "../../assests/home-page/home-button.gif";
 import FaceEmotionDetection from "../face_and_emotion_detection/FaceEmotionDetection";
+import png from "../../assests/lesson-page/png.png"
 
 const First_lesson = (props) => {
     const navigate = useNavigate();
@@ -16,11 +15,6 @@ const First_lesson = (props) => {
             <div className="background">
                 <Navbar/>
                 <div className="lesson-page-grid">
-                    <div className="lesson-left-panel">
-                        <img className="left-panel-img"
-                             src={left_pane}
-                        />
-                    </div>
                     <div className="lesson-video-panel">
                         <ReactPlayer
                             width="100%"
@@ -46,7 +40,11 @@ const First_lesson = (props) => {
                         </button>
                     </div>
 
+                    <div className="lesson-left-panel">
+                        <img className="png-img" src={png}></img>
+                    </div>
                     <div className="lesson-bottom-panel"></div>
+
                 </div>
             </div>
         </>

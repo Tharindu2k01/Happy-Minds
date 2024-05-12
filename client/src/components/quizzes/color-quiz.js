@@ -4,10 +4,10 @@ import Navbar from "../common_components/navbar/navbar";
 
 function QuizTwo(props) {
     const colors = [
-        { name: "රතු", hex: "#FF0000" },
-        { name: "කොළ", hex: "#00FF00" },
-        { name: "නිල්", hex: "#0000FF" },
-        // Add more colors as needed
+        { name: "රතු", hex: "#b01414" },
+        { name: "කොළ", hex: "#28742c" },
+        { name: "නිල්", hex: "#283c74" },
+        { name: "කහ", hex: "#fffc2c" },
     ];
 
     const [currentColor, setCurrentColor] = useState(null);
@@ -27,9 +27,9 @@ function QuizTwo(props) {
 
     const checkAnswer = (colorName) => {
         if (currentColor && colorName === currentColor.name) {
-            setFeedback("Correct!");
+            setFeedback("නිවැරදියි!");
         } else {
-            setFeedback("Wrong! Try again.");
+            setFeedback("වැරදියි! නැවත උත්සාහ කරන්න.");
         }
         setSelectedColor(colorName);
     };
@@ -43,7 +43,7 @@ function QuizTwo(props) {
     };
 
     const renderColorRows = () => {
-        const chunkedColors = chunkArray(colors, 3); // Change 3 to the number of colors you want per row
+        const chunkedColors = chunkArray(colors, 4); // Change 3 to the number of colors you want per row
         return chunkedColors.map((row, rowIndex) => (
             <div key={rowIndex} className="color-row">
                 {row.map((color, index) => (
@@ -57,7 +57,22 @@ function QuizTwo(props) {
                     >
                         {color.name}
                     </button>
+
                 ))}
+
+                {feedback && (
+                    <div className="alert alert-secondary text-center" role="alert">
+                        <p>{feedback}</p>
+                        <button
+                            type="button"
+                            className="btn btn-success"
+                            onClick={generateRandomColor}
+                        >
+                            අපි ඊළඟ පාටට යමු
+                        </button>
+                    </div>
+                )}
+
             </div>
 
         ));
@@ -90,10 +105,9 @@ function QuizTwo(props) {
                         className="btn btn-success"
                         onClick={generateRandomColor}
                     >
-                        අපි ඊළඟ පාටට යමු
+                        නව වර්ණයක් ඉල්ලුම් කරන්න.
                     </button>
 
-                    <p>{feedback}</p>
                 </div>
             </div>
         </div>
