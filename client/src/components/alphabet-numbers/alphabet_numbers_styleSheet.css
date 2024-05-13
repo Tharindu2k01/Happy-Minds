@@ -43,7 +43,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
 .item-container {
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +51,7 @@
     justify-content: center;
 }
 
-  
+
 .selected-item {
     top: 50%;
     left: 50%;
@@ -71,7 +71,7 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-  
+
 .item:hover {
     transform: scale(1.2);
 }

@@ -18,6 +18,14 @@ const Quizzes_selection = (props) => {
                             onClick={() => navigate("/Quiz_one")}>
                     </button>
 
+                    <button className="quizzes-selection-02"
+                            onClick={() => navigate("/Quiz_two")}>
+                    </button>
+
+                    <button className="quizzes-selection-03"
+                            onClick={() => navigate("/quizzes_selection")}>
+                    </button>
+
                 </div>
             </div>
         );

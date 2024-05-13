@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './alphabet_numbers_styleSheet.css';
 import Navbar from "../common_components/navbar/navbar";
+import FaceEmotionDetection from "../face_and_emotion_detection/FaceEmotionDetection";
 
 const AudioNumber = ({ number, handleNumberClick }) => {
     const [audio, setAudio] = React.useState(null);
@@ -41,6 +42,8 @@ function Number() {
                 <div className="quiz-grid-top-banner">
                     <h1 className="display-4">Let's Learn Numbers</h1>
                 </div>
+
+
 
                 <div className="item-display">
                     <h1 className="selected-item">{selectedNumber}</h1>

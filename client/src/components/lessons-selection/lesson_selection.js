@@ -48,6 +48,12 @@ const Lessons_selection = (props) => {
                         </div>
                     </button>
 
+                    <button className="lessons-selection-06"
+                            onClick={() => navigate("/lessons_selection")}>
+                        <div>
+                        </div>
+                    </button>
+
 
                 </div>
             </div>
