@@ -62,7 +62,7 @@ const Register = () => {
                         <button type="submit" className="btn btn-primary"> Register User </button>
                     </div>
 
-                    <br/><p className="text-center">or <br/>Don't have an account ?</p>
+                    <br/><p className="text-center">or <br/>Already have an account?</p>
 
                     <div className="d-grid gap-2">
                         <button type="submit" className="btn btn-success" onClick={() => navigate('/')}> Log In </button>

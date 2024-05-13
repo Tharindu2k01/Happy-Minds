@@ -34,12 +34,13 @@
 }
 
 .logo-img2 {
-    width: 150px;
+    width: 200px;
     height: auto;
     transition: transform 0.3s ease;
     display: flex;
+    transform: translateX(40px);
 }
 
 .logo-img2:hover {
-    transform: scale(1.2);
+    transform: scale(1.2) translateX(40px); 
 }
